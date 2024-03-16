@@ -1,6 +1,8 @@
 using Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Core.Inerfaces;
+using AutoMapper;
+using Core.DTOs;
 
 namespace API.Controllers;
 
@@ -9,20 +11,22 @@ namespace API.Controllers;
 public class ProductsController : ControllerBase
 {
     private readonly IProductRepo _productRepo;
-    public ProductsController(IProductRepo productRepo)
+    private readonly IMapper _mapper;
+    public ProductsController(IProductRepo productRepo, IMapper mapper)
     {
+        _mapper = mapper;
         _productRepo = productRepo;
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
+    public async Task<ActionResult<IEnumerable<ProductToReturnDto>>> GetProducts()
     {
         var products = await _productRepo.GetProducts();
 
         if(products is null)
             return NotFound();
 
-        return Ok(products);
+        return Ok(_mapper.Map<IEnumerable<Product>,IEnumerable<ProductToReturnDto>>(products));
     }
 
     [HttpGet("{id}")]
@@ -33,6 +37,6 @@ public class ProductsController : ControllerBase
         if(product is null)
             return NotFound();
 
-        return Ok(product);
+        return Ok(_mapper.Map<Product,ProductToReturnDto>(product));
     }
 }

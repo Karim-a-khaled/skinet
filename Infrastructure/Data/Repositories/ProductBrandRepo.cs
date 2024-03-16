@@ -3,7 +3,7 @@ using Core.Interfaces;
 using Infrastructue.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Data;
+namespace Infrastructure.Data.Repositories;
 
 public class ProductBrandRepo : IProductBrandRepo
 {

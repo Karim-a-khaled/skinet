@@ -2,6 +2,7 @@ using Core.Inerfaces;
 using Core.Interfaces;
 using Infrastructue.Data;
 using Infrastructure.Data;
+using Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +20,7 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 builder.Services.AddScoped<IProductRepo,ProductRepo>();
 builder.Services.AddScoped<IProductTypeRepo,ProductTypeRepo>();
 builder.Services.AddScoped<IProductBrandRepo,ProductBrandRepo>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 
