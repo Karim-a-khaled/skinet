@@ -1,7 +1,5 @@
-using Infrastructure.Data;
 using Core.Entities;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Core.Inerfaces;
 
 namespace API.Controllers;
@@ -13,8 +11,7 @@ public class ProductsController : ControllerBase
     private readonly IProductRepo _productRepo;
     public ProductsController(IProductRepo productRepo)
     {
-      _productRepo = productRepo;
-        
+        _productRepo = productRepo;
     }
 
     [HttpGet]
