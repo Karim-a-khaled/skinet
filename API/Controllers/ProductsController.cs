@@ -6,9 +6,7 @@ using Core.DTOs;
 
 namespace API.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-public class ProductsController : ControllerBase
+public class ProductsController : BaseController
 {
     private readonly IProductRepo _productRepo;
     private readonly IMapper _mapper;

@@ -4,9 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-public class ProductTypeController : ControllerBase
+
+public class ProductTypeController : BaseController
 {
     private readonly IProductTypeRepo _productTypeRepo;
     public ProductTypeController(IProductTypeRepo productTypeRepo)
