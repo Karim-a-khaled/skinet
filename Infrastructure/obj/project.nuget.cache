@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hHZpX6qqCHIkh69VNOuvahj5adTXwZjxOZ99crOmMNijqCmSH/X2uRM2So6VOpch/yrtizFjhusF87B2INTgpg==",
+  "dgSpecHash": "6S89IM24WXv8qGtiwbILoVm4vxlbdGYvdbiYGl+KIcbgLr6G5xnoxlef/Sf9+RVo7ndn8Spb051U0c85BhIbtQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -21,16 +21,16 @@
     "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\karim-khaled\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\karim-khaled\\.nuget\\packages\\stackexchange.redis\\2.7.33\\stackexchange.redis.2.7.33.nupkg.sha512",
+    "C:\\Users\\karim-khaled\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\karim-khaled\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+    "C:\\Users\\karim-khaled\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

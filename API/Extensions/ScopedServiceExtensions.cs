@@ -12,6 +12,7 @@ public static class ScopedServiceExtensions
         services.AddScoped<IProductRepo, ProductRepo>();
         services.AddScoped<IProductTypeRepo, ProductTypeRepo>();
         services.AddScoped<IProductBrandRepo, ProductBrandRepo>();
+        services.AddScoped<IBasketRepo, BasketRepo>();
 
         return services;
     }
