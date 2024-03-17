@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Core.Inerfaces;
 using AutoMapper;
 using Core.DTOs;
+using API.Errors;
 
 namespace API.Controllers;
 
@@ -28,6 +29,7 @@ public class ProductsController : BaseController
     }
 
     [HttpGet("{id}")]
+    [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
     public async Task<ActionResult<Product>> GetProduct(int id)
     {
         var product = await _productRepo.GetProductById(id);
