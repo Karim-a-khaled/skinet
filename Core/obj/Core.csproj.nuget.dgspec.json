@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj": {}
+    "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj": {
+    "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\skinet\\Core\\obj\\",
+        "projectPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\karim-khaled\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karim-khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\skinet\\API\\API.csproj": {}
+    "C:\\Users\\karim-khaled\\Desktop\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\skinet\\API\\API.csproj": {
+    "C:\\Users\\karim-khaled\\Desktop\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\skinet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\karim-khaled\\Desktop\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\USER\\Desktop\\skinet\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\skinet\\API\\obj\\",
+        "projectPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\karim-khaled\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karim-khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj"
+              "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj"
               },
-              "C:\\Users\\USER\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\karim-khaled\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -82,24 +82,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.17, 7.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.17, 7.0.17]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.17, 7.0.17]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.17, 7.0.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -112,17 +94,17 @@
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj": {
+    "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\skinet\\Core\\obj\\",
+        "projectPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\karim-khaled\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karim-khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -186,17 +168,17 @@
         }
       }
     },
-    "C:\\Users\\USER\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\karim-khaled\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\USER\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\skinet\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\karim-khaled\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\karim-khaled\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,8 +192,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj"
+              "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj"
               }
             }
           }

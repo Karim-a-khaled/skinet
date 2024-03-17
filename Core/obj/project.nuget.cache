@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vrML4kzumFarMZ1OVdfGs1TwSKVNbBACeRCbogOoaiIDA66h7n9+7wiB5hCRK0OouTKSWgGWIZEon2aG3eYFmQ==",
+  "dgSpecHash": "N9sdF8uhDzHOAAbEARD6qhPgsjBdEjUjQhBI4B3mfrX5zwfzomdeDRQ3YzJTxjhqaVYHvePahFg/WBULHpuB1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\skinet\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\Core\\Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+    "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
   ],
   "logs": []
 }
