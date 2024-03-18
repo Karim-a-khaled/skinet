@@ -34,6 +34,7 @@ try
 {
     await context.Database.MigrateAsync();
     await StoreContextSeed.SeedAsync(context);
+    await identityContext.Database.MigrateAsync();
     await AppIdentityDbContextSeed.SeedUsers(userManager);
 }
 catch (Exception ex)
