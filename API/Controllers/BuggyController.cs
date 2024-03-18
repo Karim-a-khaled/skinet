@@ -1,5 +1,6 @@
 using API.Errors;
 using Infrastructue.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,6 +13,13 @@ public class BuggyController : BaseController
     public BuggyController(StoreContext context)
     {
         _context = context;
+    }
+
+    [HttpGet]
+    [Authorize]
+    public ActionResult<string> GetSecretKey()
+    {
+        return "Top Secret";
     }
 
     [HttpGet("notfound")]
