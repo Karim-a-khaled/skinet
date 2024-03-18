@@ -48,6 +48,12 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
             }
           },
           "imports": [
@@ -118,6 +124,12 @@
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.1.39, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",

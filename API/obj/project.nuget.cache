@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ND2hoCBqDGwnVV/T0P2I4fzj9UOb8jHMsMlQ2j0kLqma0ZuosLvyZIkfmnP0O9d2lQbAIjqpRWer1TEdVMGrMA==",
+  "dgSpecHash": "SvmqHl7nJpDRizz2sYBYw+g9kmUmdkFreI9rwkxCdmW1GIjgsLXf17ZoK77E0Ti4cZCi8rDOGaoHTqrx32pgSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\karim-khaled\\Desktop\\skinet\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.17\\microsoft.entityframeworkcore.7.0.17.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.17\\microsoft.entityframeworkcore.abstractions.7.0.17.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.17\\microsoft.entityframeworkcore.analyzers.7.0.17.nupkg.sha512",
-    "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
+    "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.17\\microsoft.entityframeworkcore.design.7.0.17.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.17\\microsoft.entityframeworkcore.relational.7.0.17.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.0\\microsoft.entityframeworkcore.sqlite.7.0.0.nupkg.sha512",
     "C:\\Users\\karim-khaled\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.0\\microsoft.entityframeworkcore.sqlite.core.7.0.0.nupkg.sha512",
