@@ -1,4 +1,5 @@
 ﻿using API.Errors;
+using AutoMapper;
 using Core.DTOs;
 using Core.Entities.Identity;
 using Core.Interfaces;
@@ -15,12 +16,15 @@ public class AccountController : BaseController
     private readonly UserManager<AppUser> _userManager;
     private readonly SignInManager<AppUser> _signInManager;
     private readonly ITokenService _tokenService;
+    private readonly IMapper _mapper;
 
-    public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenService tokenService)
+    public AccountController(UserManager<AppUser> userManager, 
+        SignInManager<AppUser> signInManager, ITokenService tokenService, IMapper mapper)
     {
         _userManager = userManager;
         _signInManager = signInManager;
         _tokenService = tokenService;
+        _mapper = mapper;
     }
 
     [Authorize]
@@ -47,14 +51,32 @@ public class AccountController : BaseController
 
     [Authorize]
     [HttpGet("address")]
-    public async Task<ActionResult<Address>> GetUserAddress()
+    public async Task<ActionResult<AddressDto>> GetUserAddress()
     {
         var email = User.FindFirstValue(ClaimTypes.Email);
 
         var user = await _userManager.Users.Include(u => u.Address)
             .FirstOrDefaultAsync(u => u.Email == email);
 
-        return user.Address;
+        return _mapper.Map<Address, AddressDto>(user.Address);
+    }
+
+    [Authorize]
+    [HttpPut("address")]
+    public async Task<ActionResult<AddressDto>> UpdateUserAddress(AddressDto address)
+    {
+        var email = User.FindFirstValue(ClaimTypes.Email);
+
+        var user = await _userManager.Users.Include(u => u.Address)
+            .FirstOrDefaultAsync(u => u.Email == email);
+
+        user.Address = _mapper.Map<AddressDto, Address>(address);
+
+        var result = await _userManager.UpdateAsync(user);
+
+        if (result.Succeeded) return Ok(_mapper.Map<Address, AddressDto>(user.Address));
+
+        return BadRequest(new ApiResponse(400));
     }
 
     [HttpPost("login")]
