@@ -15,7 +15,7 @@ public class BuggyController : BaseController
         _context = context;
     }
 
-    [HttpGet]
+    [HttpGet("testauth")]
     [Authorize]
     public ActionResult<string> GetSecretKey()
     {
